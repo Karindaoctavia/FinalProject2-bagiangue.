@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 5095px;
+}
+
+h2{
+    text-align: center;
+    color: #234CAD;
+    font-size: 40px;
+}
+
+p{
+    text-align: center;
+    color: #234CAD;
+    margin-bottom: 30px;
+}
+
+.title-active-case{
+  font-size: 21px;
+}
+
+.price{
+  font-size: 56px;
+}
+
+.month{
+  margin-top: -10px;
+  font-size: 16px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+
+#box-case {
+    width: 380px;
+    height: 380px;
+    background-color: #F2F6FF;
+    color: #234CAD;
+    padding: 14px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 60px;
+    flex-direction: column;
+  }
+
+  #box-case1 {
+    width: 380px;
+    height: 380px;
+    border: 3px solid #234CAD;
+    color: #234CAD;
+    padding: 14px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    border-radius: 60px;
+    flex-direction: column;
+  }
+
+  #box-case2 {
+    width: 380px;
+    height: 380px;
+    background-color: #F2F6FF;
+    color: #234CAD;
+    padding: 14px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    border-radius: 60px;
+    flex-direction: column;
+  }
+
+  button{
+    color: #234CAD;
+    padding: 20px 80px;
+    border: 1px grey;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .stroke{
+    border: 2px solid #234CAD;
+  }
